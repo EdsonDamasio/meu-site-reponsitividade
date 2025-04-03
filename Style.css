@@ -1,0 +1,78 @@
+/* Estilos globais */
+body {  
+    background-color: cornflowerblue;
+    margin: 0px; 
+    font-family: Arial, Helvetica, sans-serif; 
+}   
+
+h1 {
+    text-align: center;
+    color: aqua;
+    font-family: fantasy;
+    font-size: 2.5em;
+}
+
+nav{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 1.5em;
+    color: white;
+}
+
+nav a:hover{
+    margin: 20px;
+    text-decoration: none;
+    color: gold;
+}
+
+h2 {
+    font-family: fantasy;
+    background-color: blue;
+    color: black;
+}
+p{
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+
+h3 {
+    background-color: blue;
+font-family: fantasy;
+color: black;}
+
+#shiba{
+    border-radius:50%; 
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer h3{
+    width: 100%;
+    height: auto;
+margin-bottom: 0;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    #container {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+#shiba {
+    margin-right: 20px;
+}
